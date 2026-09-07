@@ -4,7 +4,7 @@
         <div class="text-center space-y-4 mb-16" data-aos="fade-up">
             <div class="flex items-center justify-center gap-3">
                 <div class="h-[2px] w-8 bg-primary"></div>
-                <span class="text-primary text-xs font-bold tracking-widest uppercase">Actualidad</span>
+                <span class="text-primary text-xs font-bold tracking-widest uppercase">Actualmente</span>
                 <div class="h-[2px] w-8 bg-primary"></div>
             </div>
             <h1 class="text-4xl md:text-5xl font-extrabold text-secondary leading-tight">
