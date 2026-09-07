@@ -15,7 +15,8 @@ class BlogController extends Controller
                         'lectura' => '5 min read',
                         'titulo' => '¿Por qué la robótica es crucial en la educación primaria?',
                         'extracto' => 'Descubre cómo la introducción temprana de conceptos de programación mejora el razonamiento lógico y espacial en niños de 6 a 12 años.',
-                        'delay' => '0'
+                        'delay' => '0',
+                        'destacado' => true
                     ],
                     [
                         'categoria' => 'Logros',
@@ -24,7 +25,8 @@ class BlogController extends Controller
                         'lectura' => '3 min read',
                         'titulo' => 'Alumnos de INNOVA CECAP destacan en torneo nacional',
                         'extracto' => 'Nuestro equipo de secundaria logró el primer puesto en la categoría de vehículos evasores de obstáculos utilizando plataformas Arduino.',
-                        'delay' => '100'
+                        'delay' => '100',
+                        'destacado' => true
                     ],
                     [
                         'categoria' => 'Recursos',
@@ -33,7 +35,8 @@ class BlogController extends Controller
                         'lectura' => '7 min read',
                         'titulo' => '5 Proyectos básicos de Arduino para hacer en casa',
                         'extracto' => 'Una guía práctica con diagramas y código fuente para que padres e hijos puedan iniciar su aventura en la electrónica básica este fin de semana.',
-                        'delay' => '200'
+                        'delay' => '200',
+                        'destacado' => true
                     ]
         ];
 

@@ -1,11 +1,12 @@
 <x-layout title="Blog y Noticias | INNOVA CECAP">
+    
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         
         <div class="text-center space-y-4 mb-16" data-aos="fade-up">
             <div class="flex items-center justify-center gap-3">
-                <div class="h-[2px] w-8 bg-secondary"></div>
-                <span class="text-primary text-xs font-bold tracking-widest uppercase">Actualmente</span>
-                <div class="h-[2px] w-8 bg-secondary"></div>
+                <div class="h-[2px] w-8 bg-primary"></div>
+                <span class="text-primary text-xs font-bold tracking-widest uppercase">Actualidad</span>
+                <div class="h-[2px] w-8 bg-primary"></div>
             </div>
             <h1 class="text-4xl md:text-5xl font-extrabold text-secondary leading-tight">
                 Noticias y Recursos STEM

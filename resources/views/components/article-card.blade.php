@@ -1,9 +1,9 @@
 @props(['item'])
 
-<article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" data-aos="fade-up" data-aos-delay="{{ $item['delay'] ?? '0' }}">
+<article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-2xl hover:shadow-primary/15 hover:-translate-y-1 transition-all duration-300 group" data-aos="fade-up" data-aos-delay="{{ $item['delay'] ?? '0' }}">
     <div class="h-60 relative overflow-hidden bg-gray-100">
         <img src="{{ $item['imagen'] }}" alt="{{ $item['titulo'] }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur text-primary text-[0.65rem] font-bold px-3 py-1.5 rounded-md shadow-sm uppercase tracking-wider">{{ $item['categoria'] }}</div>
+        <div class="absolute top-4 left-4 bg-white/90 border border-white/20 text-primary text-[0.65rem] font-bold px-3 py-1.5 rounded-md shadow-sm uppercase tracking-wider">{{ $item['categoria'] }}</div>
     </div>
     <div class="p-8">
         <div class="flex items-center gap-4 text-xs font-medium text-gray-400 mb-4">
